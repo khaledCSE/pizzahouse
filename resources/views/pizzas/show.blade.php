@@ -9,6 +9,12 @@
         <p class="base">
             Base - {{ $pizza->base }}
         </p>
+        <p class="toppings">Extra toppings:</p>
+        <ul>
+            @foreach ($pizza->toppings as $topping)
+                <li>{{ $topping }}</li>
+            @endforeach
+        </ul>
     </div>
     <a href="/pizzas"><- Back to All Pizzas</a>
         @endsection
