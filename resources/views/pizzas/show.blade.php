@@ -9,9 +9,6 @@
         <p class="base">
             Base - {{ $pizza->base }}
         </p>
-        <p class="price">
-            Price - ${{ $pizza->price }}
-        </p>
     </div>
     <a href="/pizzas"><- Back to All Pizzas</a>
         @endsection
