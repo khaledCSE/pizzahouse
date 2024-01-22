@@ -1,7 +1,7 @@
-@extends('layouts.layout')
+@extends('layouts.app')
 
 @section('content')
-    <div class="wrapper create-pizza">
+    <div class="container create-pizza">
         <h1>Create New Pizza</h1>
 
         <form action="/pizzas" method="POST">
